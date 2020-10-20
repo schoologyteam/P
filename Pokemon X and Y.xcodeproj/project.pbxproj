@@ -11,6 +11,16 @@
 		4510A379253C255E00F4E36D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4510A378253C255E00F4E36D /* ContentView.swift */; };
 		4510A37B253C256000F4E36D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4510A37A253C256000F4E36D /* Assets.xcassets */; };
 		4510A37E253C256000F4E36D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4510A37D253C256000F4E36D /* Preview Assets.xcassets */; };
+		4510A38B253C274900F4E36D /* Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4510A38A253C274900F4E36D /* Index.swift */; };
+		4510A394253C445D00F4E36D /* Dataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4510A393253C445D00F4E36D /* Dataset.swift */; };
+		4510A39A253C531300F4E36D /* Roleview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4510A399253C531300F4E36D /* Roleview.swift */; };
+		453AB7A4253F5F5E002BB5ED /* PokemonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453AB7A3253F5F5E002BB5ED /* PokemonRow.swift */; };
+		453AB7B3253F6649002BB5ED /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 453AB7B2253F6649002BB5ED /* crayon_1-1.ttf */; };
+		45A29467253F743A008BCBED /* Rolerow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A29466253F743A008BCBED /* Rolerow.swift */; };
+		45C56830253F7C1100EEB20A /* jf-openhuninn-1.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45C5682F253F7C1100EEB20A /* jf-openhuninn-1.1.ttf */; };
+		45C56835253F80BA00EEB20A /* PokemonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C56834253F80BA00EEB20A /* PokemonDetail.swift */; };
+		45C5B66E253F94880055BC09 /* RoleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5B66D253F94880055BC09 /* RoleDetail.swift */; };
+		45C5B676253F9CE20055BC09 /* Linkview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5B675253F9CE20055BC09 /* Linkview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +30,16 @@
 		4510A37A253C256000F4E36D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4510A37D253C256000F4E36D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4510A37F253C256000F4E36D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4510A38A253C274900F4E36D /* Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Index.swift; sourceTree = "<group>"; };
+		4510A393253C445D00F4E36D /* Dataset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dataset.swift; sourceTree = "<group>"; };
+		4510A399253C531300F4E36D /* Roleview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roleview.swift; sourceTree = "<group>"; };
+		453AB7A3253F5F5E002BB5ED /* PokemonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonRow.swift; sourceTree = "<group>"; };
+		453AB7B2253F6649002BB5ED /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "crayon_1-1.ttf"; sourceTree = "<group>"; };
+		45A29466253F743A008BCBED /* Rolerow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rolerow.swift; sourceTree = "<group>"; };
+		45C5682F253F7C1100EEB20A /* jf-openhuninn-1.1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-openhuninn-1.1.ttf"; sourceTree = "<group>"; };
+		45C56834253F80BA00EEB20A /* PokemonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetail.swift; sourceTree = "<group>"; };
+		45C5B66D253F94880055BC09 /* RoleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleDetail.swift; sourceTree = "<group>"; };
+		45C5B675253F9CE20055BC09 /* Linkview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linkview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +72,19 @@
 		4510A375253C255E00F4E36D /* Pokemon X and Y */ = {
 			isa = PBXGroup;
 			children = (
+				45C56832253F7C6A00EEB20A /* 字體 */,
 				4510A376253C255E00F4E36D /* Pokemon_X_and_YApp.swift */,
 				4510A378253C255E00F4E36D /* ContentView.swift */,
-				4510A37A253C256000F4E36D /* Assets.xcassets */,
+				4510A393253C445D00F4E36D /* Dataset.swift */,
+				4510A38A253C274900F4E36D /* Index.swift */,
+				4510A399253C531300F4E36D /* Roleview.swift */,
+				45A29466253F743A008BCBED /* Rolerow.swift */,
+				453AB7A3253F5F5E002BB5ED /* PokemonRow.swift */,
+				45C56834253F80BA00EEB20A /* PokemonDetail.swift */,
+				45C5B66D253F94880055BC09 /* RoleDetail.swift */,
+				45C5B675253F9CE20055BC09 /* Linkview.swift */,
 				4510A37F253C256000F4E36D /* Info.plist */,
+				4510A37A253C256000F4E36D /* Assets.xcassets */,
 				4510A37C253C256000F4E36D /* Preview Content */,
 			);
 			path = "Pokemon X and Y";
@@ -67,6 +96,15 @@
 				4510A37D253C256000F4E36D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45C56832253F7C6A00EEB20A /* 字體 */ = {
+			isa = PBXGroup;
+			children = (
+				45C5682F253F7C1100EEB20A /* jf-openhuninn-1.1.ttf */,
+				453AB7B2253F6649002BB5ED /* crayon_1-1.ttf */,
+			);
+			path = "字體";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +164,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				453AB7B3253F6649002BB5ED /* crayon_1-1.ttf in Resources */,
+				45C56830253F7C1100EEB20A /* jf-openhuninn-1.1.ttf in Resources */,
 				4510A37E253C256000F4E36D /* Preview Assets.xcassets in Resources */,
 				4510A37B253C256000F4E36D /* Assets.xcassets in Resources */,
 			);
@@ -139,7 +179,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4510A379253C255E00F4E36D /* ContentView.swift in Sources */,
+				45C5B66E253F94880055BC09 /* RoleDetail.swift in Sources */,
+				45C5B676253F9CE20055BC09 /* Linkview.swift in Sources */,
+				4510A394253C445D00F4E36D /* Dataset.swift in Sources */,
+				45C56835253F80BA00EEB20A /* PokemonDetail.swift in Sources */,
+				453AB7A4253F5F5E002BB5ED /* PokemonRow.swift in Sources */,
 				4510A377253C255E00F4E36D /* Pokemon_X_and_YApp.swift in Sources */,
+				45A29467253F743A008BCBED /* Rolerow.swift in Sources */,
+				4510A38B253C274900F4E36D /* Index.swift in Sources */,
+				4510A39A253C531300F4E36D /* Roleview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +317,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Pokemon X and Y/Preview Content\"";
+				DEVELOPMENT_TEAM = FRC2Y2275M;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Pokemon X and Y/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -290,6 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Pokemon X and Y/Preview Content\"";
+				DEVELOPMENT_TEAM = FRC2Y2275M;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Pokemon X and Y/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
